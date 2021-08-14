@@ -14,7 +14,7 @@ from database import (
 # App object
 app = FastAPI()
 
-origins = ['https://localhost:3000']
+origins = ['http://localhost:3000']
 
 app.add_middleware(
     CORSMiddleware,
